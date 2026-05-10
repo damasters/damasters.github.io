@@ -190,15 +190,6 @@ body {
   object-fit: cover;
 }
 
-/* Placeholder icon shown when image fails to load */
-.photo-ring::after {
-  content: '\f007';
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-  font-size: 4rem;
-  color: rgba(255,255,255,0.3);
-  position: absolute;
-}
 
 .hero-left h1 {
   color: white;
