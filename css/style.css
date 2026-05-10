@@ -598,6 +598,19 @@ body {
   font-weight: 400;
 }
 
+/* ─── Course group headings ─── */
+.course-group-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--green-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+  padding-left: 2px;
+}
+
+[data-theme="dark"] .course-group-title { color: var(--green-pale); }
+
 /* ─── Contact ─── */
 .contact-inner {
   text-align: center;
