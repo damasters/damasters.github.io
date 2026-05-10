@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Masters – AI Researcher &amp; Data Scientist</title>
+  <meta name="description" content="Personal portfolio of Daniel Masters, AI Researcher and Data Scientist.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#about">Daniel Masters</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO / ABOUT ═══ -->
+  <section id="about" class="hero">
+    <div class="topo-bg"></div>
+    <div class="hero-inner">
+
+      <!-- Left: photo + identity -->
+      <div class="hero-left">
+        <div class="photo-ring">
+          <img src="assets/img/profile.jpg" alt="Daniel Masters" class="profile-pic" id="profilePic">
+        </div>
+        <h1>Daniel Masters</h1>
+        <p class="title-line">AI Research &amp; Operations Analyst</p>
+        <p class="org-line">Internet Brands | WebMD</p>
+        <div class="social-row">
+          <a href="mailto:your-email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/damasters" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: about + details -->
+      <div class="hero-right">
+        <h2 class="hero-heading">About Me</h2>
+        <p class="about-bio">
+          I am an applied AI researcher and data scientist specializing in computer vision,
+          3D reconstruction, and large language models. I currently work as an
+          <strong>AI Research &amp; Operations Analyst</strong> at Internet Brands | WebMD,
+          building AI workflows and fine-tuning language models for medical content pipelines.
+          Previously, I interned at <strong>Lawrence Livermore National Laboratory</strong>,
+          where I designed systems for reconstructing 3D satellite models from limited imagery
+          using 3D Gaussian Splatting and achieved a 95% mean IoU with fine-tuned SAM 2 segmentation.
+          I hold an M.S. in Applied Data Science from the University of Southern California
+          (Magna Cum Laude, GPA 3.90, Phi Beta Kappa).
+        </p>
+        <a class="btn-cv" href="assets/Daniel-Masters-Resume.pdf" download>
+          <i class="fas fa-download"></i>&ensp;Download CV
+        </a>
+
+        <div class="hero-columns">
+          <div>
+            <h3>Interests</h3>
+            <ul class="interest-list">
+              <li>3D Gaussian Splatting</li>
+              <li>Computer Vision &amp; Remote Sensing</li>
+              <li>Large Language Models</li>
+              <li>Satellite Image Analysis</li>
+              <li>Applied AI Research</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Education</h3>
+            <div class="edu-entry">
+              <i class="fas fa-graduation-cap edu-icon"></i>
+              <div>
+                <div class="edu-degree">M.S. Applied Data Science</div>
+                <div class="edu-school">University of Southern California</div>
+                <div class="edu-year">2023 &nbsp;·&nbsp; GPA 3.90, Magna Cum Laude</div>
+              </div>
+            </div>
+            <div class="edu-entry">
+              <i class="fas fa-graduation-cap edu-icon"></i>
+              <div>
+                <div class="edu-degree">B.S. Mathematics / Economics</div>
+                <div class="edu-school">University of Southern California</div>
+                <div class="edu-year">2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wave divider -->
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCE ═══ -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <span class="tl-role">AI Research &amp; Operations Analyst</span>
+              <span class="tl-date">Dec 2025 – Present</span>
+            </div>
+            <div class="tl-org">Internet Brands | WebMD</div>
+            <ul>
+              <li>Co-developed an AI workflow reducing medical presentation preparation time by 70%</li>
+              <li>Fine-tuned Qwen3 for document structure analysis and citation building from research papers with 90% accuracy</li>
+              <li>Built a PDF highlighting tool that maps LLM-generated content to exact source passages for output verifiability</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <span class="tl-role">Applied AI Research Intern</span>
+              <span class="tl-date">Jun 2025 – Sep 2025</span>
+            </div>
+            <div class="tl-org">Lawrence Livermore National Laboratory</div>
+            <ul>
+              <li>Designed a system to reconstruct 3D satellite models from limited imagery using 3D Gaussian Splatting</li>
+              <li>Fine-tuned SAM 2 segmentation model to isolate satellites from space backgrounds with mean IoU of 95%</li>
+              <li>Constructed a ResNet+U-Net model to predict occluded object appearances across 2,041 scenes with 88% mIoU</li>
+              <li>Authored a research paper and presented findings at a lab-wide poster session</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <span class="tl-role">AI Tutor (Contract)</span>
+              <span class="tl-date">Dec 2024 – Jun 2025</span>
+            </div>
+            <div class="tl-org">xAI</div>
+            <ul>
+              <li>Curated and annotated 3,000+ data points with 98% accuracy to improve training dataset quality</li>
+              <li>Performed data validation and quality assurance for AI development datasets</li>
+              <li>Mentored fellow tutors by clarifying task requirements in team channels</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <span class="tl-role">Applied AI Research Intern</span>
+              <span class="tl-date">Jun 2023 – Mar 2024</span>
+            </div>
+            <div class="tl-org">Sandia National Laboratories</div>
+            <ul>
+              <li>Developed a custom deep learning OCR system to extract text from engineering drawings with 92%+ accuracy</li>
+              <li>Adapted a pre-trained Super Resolution model to upscale satellite imagery 4× while preserving 97% SSIM</li>
+              <li>Produced technical documentation of both systems for future replication</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <span class="tl-role">Data Scientist Intern</span>
+              <span class="tl-date">Jun 2022 – Jun 2023</span>
+            </div>
+            <div class="tl-org">Haystack Search</div>
+            <ul>
+              <li>Organized 1,000+ products hierarchically for the company's search engine</li>
+              <li>Developed a system to define color ranges for the search engine's color detection</li>
+              <li>Enhanced product categorization by monitoring and updating 3,000+ items in their Active Learning Application</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-card-icon">
+            <i class="fas fa-satellite"></i>
+          </div>
+          <h3>Sparse-View Satellite 3DGS</h3>
+          <p>Reconstructing 3D satellite models from sparse imagery using 3D Gaussian Splatting — extending research done at Lawrence Livermore National Laboratory.</p>
+          <div class="project-tags">
+            <span>3D Gaussian Splatting</span>
+            <span>PyTorch</span>
+            <span>Computer Vision</span>
+            <span>Remote Sensing</span>
+          </div>
+          <a href="https://github.com/damasters/sparse-view-satellite-3dgs" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-icon">
+            <i class="fas fa-gavel"></i>
+          </div>
+          <h3>PatQual</h3>
+          <p>USPTO Patent Bar Eligibility Assessment Tool. A Pinecone-based RAG pipeline helping candidates evaluate USPTO exam eligibility against Category B qualification rules.</p>
+          <div class="project-tags">
+            <span>RAG</span>
+            <span>Pinecone</span>
+            <span>LLM</span>
+            <span>Python</span>
+          </div>
+          <a href="https://github.com/damasters" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-icon">
+            <i class="fas fa-image"></i>
+          </div>
+          <h3>Satellite Super Resolution</h3>
+          <p>Adapted a pre-trained Super Resolution model to upscale low-resolution satellite imagery by 4× while maintaining 97% SSIM — developed at Sandia National Laboratories.</p>
+          <div class="project-tags">
+            <span>Super Resolution</span>
+            <span>PyTorch</span>
+            <span>Transfer Learning</span>
+            <span>OpenCV</span>
+          </div>
+          <a href="https://github.com/damasters" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>Engineering Drawing OCR</h3>
+          <p>Custom deep learning OCR system to extract text from engineering drawings with 92%+ accuracy — developed at Sandia National Laboratories.</p>
+          <div class="project-tags">
+            <span>OCR</span>
+            <span>Deep Learning</span>
+            <span>OpenCV</span>
+            <span>Azure AI</span>
+          </div>
+          <a href="https://github.com/damasters" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>CUDA</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3><i class="fas fa-brain"></i> ML / AI Frameworks</h3>
+          <div class="skill-tags">
+            <span>PyTorch</span>
+            <span>TensorFlow</span>
+            <span>Scikit-Learn</span>
+            <span>HuggingFace</span>
+            <span>OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3><i class="fas fa-chart-bar"></i> Data &amp; Analysis</h3>
+          <div class="skill-tags">
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Excel</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3><i class="fas fa-tools"></i> Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span>Jupyter</span>
+            <span>VS Code</span>
+            <span>Claude Code</span>
+            <span>Vertex AI</span>
+            <span>OpenAI API</span>
+            <span>Pinecone</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="section section-alt">
+    <div class="section-inner contact-inner">
+      <h2 class="section-title" style="display:block;text-align:center;">Contact</h2>
+      <p class="contact-sub">Open to research collaborations, full-time roles, and interesting conversations.</p>
+      <a href="mailto:your-email@example.com" class="btn-contact">
+        <i class="fas fa-envelope"></i>&ensp;Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Daniel Masters &nbsp;·&nbsp; Built with GitHub Pages</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
