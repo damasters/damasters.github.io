@@ -598,6 +598,42 @@ body {
   font-weight: 400;
 }
 
+/* ─── Restricted project card ─── */
+.project-card.restricted {
+  background: rgba(15, 30, 20, 0.72);
+  border-color: rgba(255,255,255,0.08);
+  backdrop-filter: blur(6px);
+}
+
+.project-card.restricted h3,
+.project-card.restricted p {
+  color: rgba(200, 220, 205, 0.75);
+}
+
+.project-card.restricted .project-card-icon {
+  background: linear-gradient(135deg, #0d2318, #1b3a28);
+  opacity: 0.85;
+}
+
+.project-card.restricted .project-tags span {
+  background: rgba(255,255,255,0.06);
+  color: rgba(183, 228, 199, 0.6);
+}
+
+.restricted-notice {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.8rem;
+  color: rgba(183, 228, 199, 0.55);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+[data-theme="light"] .project-card.restricted {
+  background: rgba(20, 45, 30, 0.80);
+}
+
 /* ─── Course group headings ─── */
 .course-group-title {
   font-size: 1.1rem;
